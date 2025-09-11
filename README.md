@@ -146,6 +146,7 @@ The **Power BI Dashboard** (`Dashboard.pbix`) visualizes KPIs and business insig
 ---
 
 ## 🖼️ Dashboard Preview
+
 <img width="1920" height="1080" alt="Screenshot 2025-09-11 201359" src="https://github.com/user-attachments/assets/3eddd0c5-13f2-4011-a96b-88fbc93af155" />
 <img width="1920" height="1080" alt="Screenshot 2025-09-11 201455" src="https://github.com/user-attachments/assets/4bd5a8e9-3438-4df7-8c4e-2ff3a917dc0f" />
 <img width="1920" height="1080" alt="Screenshot 2025-09-11 201504" src="https://github.com/user-attachments/assets/389a158a-f5c3-4168-b12e-1d81c487e73a" />
@@ -162,4 +163,5 @@ The **Power BI Dashboard** (`Dashboard.pbix`) visualizes KPIs and business insig
 ## 👨‍💻 Author & Copyright
 
 *Author: Harish Chavan.
+
 *© 2025 Harish Chavan. All Rights Reserved.
