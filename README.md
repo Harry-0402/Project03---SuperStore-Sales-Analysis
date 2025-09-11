@@ -17,7 +17,7 @@
    * [Dashboard Development (Power-BI)](#2-dashboard-development-power-bi)
 4. [How to Run](#-how-to-run-the-project)
 5. [Key Insights](#-example-insights)
-6. [Preview](#-dashboard-preview)
+6. [Dashboard Preview](#-dashboard-preview)
 7. [Acknowledgements](#-acknowledgements)
 8. [Author & Copyright](#-author--copyright)
 
