@@ -1,1 +1,157 @@
-# Project03---SuperStore-Sales-Analysis
+# 📊 Superstore Sales Analysis – Power BI Project
+
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![Power BI](https://img.shields.io/badge/PowerBI-Dashboard-yellow?logo=powerbi)
+![pandas](https://img.shields.io/badge/Pandas-Data%20Cleaning-green?logo=pandas)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+
+---
+
+## 📖 Table of Contents
+
+1. [Overview](#-project-overview)
+2. [Repository Structure](#-repository-structure)
+3. [Workflow & Methodology](#️-workflow--methodology)
+
+   * [Data Preprocessing (Python)](#1-data-preprocessing-python)
+   * [Dashboard Development (Power-BI)](#2-dashboard-development-power-bi)
+4. [How to Run](#-how-to-run-the-project)
+5. [Key Insights](#-example-insights)
+6. [Preview](#-dashboard-preview)
+7. [Acknowledgements](#-acknowledgements)
+
+---
+
+## 📌 Project Overview
+
+This project analyzes **Superstore sales data** to generate actionable insights on **sales, profit, customers, and product performance**.
+
+* ✅ **Python (Pandas)** for preprocessing and feature engineering.
+* ✅ **Power BI** for building interactive dashboards.
+* ✅ Business KPIs like **Profit Margin, Revenue per Item, Sales Trends, Customer Analysis**.
+
+---
+
+## 📂 Repository Structure
+
+```
+Superstore-Sales-Analysis/
+│── Superstore_Sales.xlsx                # Raw dataset
+│── Superstore_Sales_Analysis.xlsx       # Basic Excel Analysis
+│── Preprocessing Script for Superstore Dataset.py  # Python preprocessing script
+│── Superstore_Cleaned.csv               # Cleaned dataset (generated after running script)
+│── Dashboard.pbix                       # Power BI dashboard file
+│── Dashboard_Overlook.pdf               # Dashboard summary (PDF)
+│── README.md                            # Project documentation
+```
+
+---
+
+## ⚙️ Workflow & Methodology
+
+### 1. **Data Preprocessing (Python)**
+
+The preprocessing script handles data cleaning and transformation:
+
+* 🔹 Convert `Order Date` & `Ship Date` → DateTime format.
+* 🔹 Standardize categorical columns (`Region`, `Segment`, etc.).
+* 🔹 Create new features:
+
+  * `Profit Margin` (Profit ÷ Sales).
+  * `Revenue Per Item` (Sales ÷ Quantity).
+  * `Year`, `Month`, `Quarter`.
+* 🔹 Remove duplicates (`Row ID`, `Order ID`).
+* 🔹 Handle missing values (fill Postal Codes, drop nulls in Sales/Profit).
+* 🔹 Export as `Superstore_Cleaned.csv`.
+
+---
+
+### 2. **Dashboard Development (Power BI)**
+
+The **Power BI Dashboard** (`Dashboard.pbix`) visualizes KPIs and business insights across **three pages**.
+
+**Page 1 – Sales Overview**
+
+* 💰 **Total Sales**: ₹2.30M
+* 📈 **Total Profit**: ₹286.40K
+* 📊 **Profit Margin**: 12.47%
+* 🛒 **Total Orders**: 5009
+* 📉 Sales & Profit Trends (2014–2017).
+* 🌍 Regional Sales & Profits (East, West, Central, South).
+* 👥 Sales by Segment (Consumer, Corporate, Home Office).
+* 🏆 Top 5 Customers by Sales.
+* 📦 Sales by Category & Sub-Category.
+* 🔍 Interactive filters: Year, Region, Category, State, City, Segment.
+
+**Page 2 – Regional & Time Trends**
+
+* 📈 **Regional Year-wise Sales** (Central, East, South, West).
+* 📉 **Regional Year-wise Profits** for the same period.
+* 🔄 Ability to compare performance of different regions over time.
+
+**Page 3 – Key Influencers**
+
+* 🔍 **AI-driven Key Influencers** visual.
+* Highlights which factors most strongly affect **Sales increase or decrease**.
+* Example: Sales increase when `Total Quantity Sold > 7`, or when `Discount` ranges between 0.2–0.5.
+* Helps identify **business drivers** behind performance.
+
+---
+
+## 🚀 How to Run the Project
+
+### 🔧 Prerequisites
+
+* **Python 3.x**
+* **pandas** library
+* **Power BI Desktop**
+
+### ▶️ Steps
+
+1. Clone the repository:
+
+   ```bash
+   git clone <repo_url>
+   cd Superstore-Sales-Analysis
+   ```
+
+2. Run the preprocessing script (update output path if needed):
+
+   ```bash
+   python "Preprocessing Script for Superstore Dataset.py"
+   ```
+
+3. Open `Dashboard.pbix` in **Power BI Desktop**.
+
+4. Connect it to the `Superstore_Cleaned.csv`.
+
+5. Interact with filters & explore insights.
+
+---
+
+## 📊 Example Insights
+
+* 👥 **Consumer Segment** drives \~50% of total sales.
+* 💻 **Technology Category** leads in revenue (₹836K).
+* ☎️ **Phones & Chairs** are top-selling sub-categories.
+* 🌍 **East & West regions** outperform Central in profit and sales.
+* 🏆 Customers like *Sean Miller* and *Tamara Chapman* generate the highest sales.
+* 📉 Discounts in the **0.2–0.5 range** significantly impact sales patterns.
+
+---
+
+## 🖼️ Dashboard Preview
+*(Add your screenshots here)*
+
+![Sales Overview](images/sales_overview.png)
+![Regional Trends](images/regional_trends.png)
+![Key Influencers](images/key_influencers.png)
+
+## 🙌 Acknowledgements
+
+* Dataset: *Global Superstore Dataset*.
+* Tools: **Python (Pandas)**, **Power BI**.
+
+---
+
+Would you like me to also **design clean placeholder images** (mock dashboards) so your GitHub README looks professional until you upload real screenshots?
