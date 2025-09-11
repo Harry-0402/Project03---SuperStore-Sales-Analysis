@@ -19,6 +19,7 @@
 5. [Key Insights](#-example-insights)
 6. [Preview](#-dashboard-preview)
 7. [Acknowledgements](#-acknowledgements)
+8. [Author & Copyright](#-author-&-copyright)
 
 ---
 
@@ -150,6 +151,8 @@ The **Power BI Dashboard** (`Dashboard.pbix`) visualizes KPIs and business insig
 <img width="1920" height="1080" alt="Screenshot 2025-09-11 201455" src="https://github.com/user-attachments/assets/4bd5a8e9-3438-4df7-8c4e-2ff3a917dc0f" />
 <img width="1920" height="1080" alt="Screenshot 2025-09-11 201504" src="https://github.com/user-attachments/assets/389a158a-f5c3-4168-b12e-1d81c487e73a" />
 
+---
+
 ## 🙌 Acknowledgements
 
 * Dataset: *Global Superstore Dataset*.
@@ -157,4 +160,7 @@ The **Power BI Dashboard** (`Dashboard.pbix`) visualizes KPIs and business insig
 
 ---
 
-Would you like me to also **design clean placeholder images** (mock dashboards) so your GitHub README looks professional until you upload real screenshots?
+## 👨‍💻 Author & Copyright
+
+*Author: Harish Chavan.
+*© 2025 Harish Chavan. All Rights Reserved.
