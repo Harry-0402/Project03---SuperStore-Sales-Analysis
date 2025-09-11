@@ -162,6 +162,5 @@ The **Power BI Dashboard** (`Dashboard.pbix`) visualizes KPIs and business insig
 
 ## 👨‍💻 Author & Copyright
 
-*Author: Harish Chavan.
-
-*© 2025 Harish Chavan. All Rights Reserved.
+* Author: Harish Chavan.
+* © 2025 Harish Chavan. All Rights Reserved.
