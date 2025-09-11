@@ -83,11 +83,15 @@ The **Power BI Dashboard** (`Dashboard.pbix`) visualizes KPIs and business insig
 * 📦 Sales by Category & Sub-Category.
 * 🔍 Interactive filters: Year, Region, Category, State, City, Segment.
 
-**Page 2 – Regional & Time Trends**
+**Page 2 – Hierarchical Data Drill-Down**
 
-* 📈 **Regional Year-wise Sales** (Central, East, South, West).
-* 📉 **Regional Year-wise Profits** for the same period.
-* 🔄 Ability to compare performance of different regions over time.
+* 🔍 **Sum of Sales hierarchy**: ₹22,97,200.86
+  
+      Category → Sub-Category → Region → State → City → Segment → Technology (₹8,36,154.03) → Phones (₹3,30,007.05) → East (₹1,00,614.98) → New York (₹47,502.62) → New York City (₹37,959.13) → Consumer (₹18,919.08)
+
+* 💰 **Sum of Profit hierarchy**: ₹2,86,397.02
+
+      Category → Sub-Category → Region → State → City → Segment → Technology (₹1,45,454.95) → Copiers (₹55,617.82) → West (₹19,327.24) → Washington (₹9,442.42) → Seattle (₹8,290.44) → Consumer (₹6,809.98)
 
 **Page 3 – Key Influencers**
 
@@ -141,6 +145,7 @@ The **Power BI Dashboard** (`Dashboard.pbix`) visualizes KPIs and business insig
 ---
 
 ## 🖼️ Dashboard Preview
+
 <img width="1920" height="1080" alt="Screenshot 2025-09-11 201359" src="https://github.com/user-attachments/assets/3eddd0c5-13f2-4011-a96b-88fbc93af155" />
 <img width="1920" height="1080" alt="Screenshot 2025-09-11 201455" src="https://github.com/user-attachments/assets/4bd5a8e9-3438-4df7-8c4e-2ff3a917dc0f" />
 <img width="1920" height="1080" alt="Screenshot 2025-09-11 201504" src="https://github.com/user-attachments/assets/389a158a-f5c3-4168-b12e-1d81c487e73a" />
